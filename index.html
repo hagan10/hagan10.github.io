@@ -2,13 +2,15 @@
 <body>
 
 <p id="result"></p>
+<textarea cols="40" id="SearchText" rows="1"></textarea>
 
 <script>
 var url = window.prompt("YouTubeURL");
 var minute = window.prompt("Minute");
 var second = window.prompt("Second");
-var result = string.concat(url, "?t=", minute, "m", second, "s");
+var completed = string.concat(url, "?t=", minute, "m", second, "s");
 
+var result = document.getElementById("SearchText").value;
 document.getElementById("result").innerHTML = result;
 
 </script>
