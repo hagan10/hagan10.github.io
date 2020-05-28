@@ -1,18 +1,22 @@
 <html>
 <body>
 
+Hi everyone
+
 <p id="result"></p>
 <textarea cols="40" id="SearchText" rows="1"></textarea>
 
+</div>
+<button onclick="myFunction()" type="button">Submit!</button>
+</div>
 <script>
-var url = window.prompt("YouTubeURL");
-var minute = window.prompt("Minute");
-var second = window.prompt("Second");
-var completed = string.concat(url, "?t=", minute, "m", second, "s");
-
-var result = document.getElementById("SearchText").value;
-document.getElementById("result").innerHTML = result;
-
+function myFunction() {
+    var result = document.getElementById("SearchText").value;
+	document.getElementById("result").innerHTML = 'hello' + result;
+}
 </script>
+
+</div>
+
 </body>
 <html>
