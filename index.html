@@ -2,15 +2,17 @@
     
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
-
-<p id="result"></p>
+    
 <textarea cols="40" id="SearchText" rows="1"></textarea>
 <textarea cols="40" id="SearchText2" rows="1"></textarea>
 <textarea cols="40" id="SearchText3" rows="1"></textarea>
 
-</div>
-<button onclick="myFunction()" type="button">Submit!</button>
-</div>
+<p>
+    <button onclick="myFunction()" type="button">Submit!</button>
+</p>
+
+<p id="result"></p>
+
 <script>
 function myFunction() {
     var url = document.getElementById("SearchText").value;
