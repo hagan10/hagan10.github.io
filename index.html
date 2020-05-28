@@ -1,8 +1,6 @@
 <html>
 <body>
 
-Hi everyone
-
 <p id="result"></p>
 <textarea cols="40" id="SearchText" rows="1"></textarea>
 <textarea cols="40" id="SearchText2" rows="1"></textarea>
@@ -17,7 +15,7 @@ function myFunction() {
     var min = document.getElementById("SearchText2").value;
     var sec = document.getElementById("SearchText3").value;
 
-    var result = string.concat(url, "?t=", minute, "m", second, "s");
+    var result = string.concat(url, "?t=", min, "m", sec, "s");
 	
 	
 	document.getElementById("result").innerHTML = result;
