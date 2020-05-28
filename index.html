@@ -24,7 +24,10 @@ function myFunction() {
     var sec = document.getElementById("SearchText3").value;
 
     var result = url + "?t=" + min + "m" + sec + "s"; 
-    document.getElementById("result").innerHTML = result;
+    
+    secondFunction();
+}
+   
     
     
     
@@ -32,7 +35,7 @@ function myFunction() {
 
     
     
-    
+function secondFunction() {   
 var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
 copyEmailBtn.addEventListener('click', function(event) {  
   // Select the email link anchor text  
@@ -65,9 +68,10 @@ copyEmailBtn.addEventListener('click', function(event) {
 });
     
     
-    
-    
+     document.getElementById("result").innerHTML = result;
 }
+}
+
     
     
 
