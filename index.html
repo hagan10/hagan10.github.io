@@ -25,10 +25,11 @@ function myFunction() {
 
     var result = url + "?t=" + min + "m" + sec + "s"; 
     document.getElementById("result").innerHTML = result;
-}
     
     
-    var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
+    
+    
+        var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
 copyEmailBtn.addEventListener('click', function(event) {  
   // Select the email link anchor text  
   var emailLink = document.querySelector('.js-emaillink');  
@@ -49,6 +50,14 @@ copyEmailBtn.addEventListener('click', function(event) {
   // removeRange(range) when it is supported  
   window.getSelection().removeAllRanges();  
 });
+    
+    
+    
+    
+}
+    
+    
+
 </script>
 
 </div>
