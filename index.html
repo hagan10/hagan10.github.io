@@ -29,13 +29,26 @@ function myFunction() {
     
     
     
-        var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
+
+    
+    
+    
+var copyEmailBtn = document.querySelector('.js-emailcopybtn');  
 copyEmailBtn.addEventListener('click', function(event) {  
   // Select the email link anchor text  
-  var emailLink = document.querySelector('.js-emaillink');  
+  var emailLink = result;  
   var range = document.createRange();  
   range.selectNode(emailLink);  
   window.getSelection().addRange(range);  
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   try {  
     // Now that we've selected the anchor text, execute the copy command  
