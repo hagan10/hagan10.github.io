@@ -13,8 +13,14 @@ Hi everyone
 </div>
 <script>
 function myFunction() {
-    var result = document.getElementById("SearchText").value;
-	document.getElementById("result").innerHTML = 'hello' + result;
+    var url = document.getElementById("SearchText").value;
+    var min = document.getElementById("SearchText2").value;
+    var sec = document.getElementById("SearchText3").value;
+
+    var result = string.concat(url, "?t=", minute, "m", second, "s");
+	
+	
+	document.getElementById("result").innerHTML = result;
 }
 </script>
 
