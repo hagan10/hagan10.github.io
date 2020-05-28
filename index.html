@@ -15,7 +15,7 @@ function myFunction() {
     var min = document.getElementById("SearchText2").value;
     var sec = document.getElementById("SearchText3").value;
 
-    var result = string.concat(url, "?t=", min, "m", sec, "s");
+    var result = string.concat(url, min, sec);
 	
 	
 	document.getElementById("result").innerHTML = result;
